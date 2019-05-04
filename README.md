@@ -10,3 +10,11 @@ npm run serve
 ```
 
 Now go to http://localhost:8080/
+
+## Deployment
+
+``` bash
+npm run build
+```
+
+All generated files will be in the dist folder.
