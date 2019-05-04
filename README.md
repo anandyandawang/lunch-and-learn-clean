@@ -17,5 +17,5 @@ Now go to http://localhost:8080/
 npm run build
 ```
 
-All generated files will be in the ./dist folder.
+This will generate a bunch of production-ready files in the ./dist folder.
 To deploy to GitHub pages, grab those files and put them into their own repo (preferably USERNAME.github.io as it automatically sets up the environment).
