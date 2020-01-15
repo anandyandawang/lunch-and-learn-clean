@@ -13,6 +13,15 @@ Now go to http://localhost:8080/
 
 ## Deployment
 
+Go into vue.config.js and find this line:
+```
+publicPath: "/"
+```
+Change it to an absolute path that matches the sub-path of whereever you are deploying to. E.g. if you are deploying to andywang99.github.io/foo/, then change the line to:
+```
+publicPath: "/foo/"
+```
+
 Enter this into terminal in your root dir:
 
 ```bash
